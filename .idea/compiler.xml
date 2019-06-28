@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springBeanFacotry" />
         <module name="springhelloworld" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springBeanFacotry" target="1.7" />
       <module name="springhelloworld" target="1.7" />
     </bytecodeTargetLevel>
   </component>
