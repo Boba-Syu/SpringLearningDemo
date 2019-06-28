@@ -3,3 +3,6 @@
 
 > #### springhelloworld
 > 一个HelloWorld的demo
+>
+> #### springBeanFactory
+> spring的bean工厂
