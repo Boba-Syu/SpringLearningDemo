@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 有参数的构造方法 -->
+    <!-- index为构造方法的第几个参数, type为该参数的类型, name为该参数的名称, 这三个参数不必要都有 -->
+    <!-- value为参数的值 -->
+    <bean id="user1" class="com.boba.entity.User">
+        <constructor-arg index="0" type="int" name="id" value="1"></constructor-arg>
+        <constructor-arg index="1" type="java.lang.String" name="name" value="boba"></constructor-arg>
+    </bean>
+
+    <!-- 无参数的构造方法 -->
+    <bean id="user2" class="com.boba.entity.User"></bean>
+
+    <!-- 利用set方法进行注入, User类中每个变量都必须有对应的setter方法 -->
+    <bean id="user3" class="com.boba.entity.User">
+        <property name="name" value="Novice"></property>
+        <property name="id" value="3"></property>
+    </bean>
+
+    <!-- 利用set方法进行注入, 使用了p-namespace, 配置更加简洁, User类中每个变量都必须有对应的setter方法 -->
+    <bean id="user4" class="com.boba.entity.User"
+        p:id="4" p:name="John"></bean>
+
+    <!-- 引用类型注入, 在people类中含有user, 课通过这种方法将已经装载好的bean加到其中-->
+    <bean id="people" class="com.boba.entity.People">
+        <property name="id" value="1"></property>
+        <property name="user" ref="user2">
+        </property>
+    </bean>
+</beans>
