@@ -2,6 +2,7 @@ package com.boba;
 
 import com.boba.entity.People;
 import com.boba.entity.User;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -19,6 +20,10 @@ public class App {
         /*无参数的构造方法, 产生后id和name都没有值*/
         User user2 = (User) ac.getBean("user2");
         System.out.println(user2);
+    }
+    @Test
+    public void test1() {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("META-INF/applicationContext.xml");
 
         /*setter方法注入, 必须有对应的setter方法*/
         User user3 = (User) ac.getBean("user3");
