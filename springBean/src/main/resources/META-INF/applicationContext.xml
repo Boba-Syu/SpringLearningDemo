@@ -29,4 +29,11 @@
         <property name="user" ref="user2">
         </property>
     </bean>
+
+    <!--静态工厂创建对象-->
+    <bean id="user5" class="com.boba.factory.StaticFactory" factory-method="createUser"></bean>
+
+    <!-- 实例工厂创建对象, 工厂必须先实例化 -->
+    <bean id="factory" class="com.boba.factory.Factory"></bean>
+    <bean id="user6" factory-bean="factory" factory-method="createrUser"></bean>
 </beans>
