@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringLearningDemo.iml" filepath="$PROJECT_DIR$/SpringLearningDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBean/springBean.iml" filepath="$PROJECT_DIR$/springBean/springBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" filepath="$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" filepath="$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springhelloworld/springhelloworld.iml" filepath="$PROJECT_DIR$/springhelloworld/springhelloworld.iml" />
     </modules>
