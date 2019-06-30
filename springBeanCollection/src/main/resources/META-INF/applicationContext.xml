@@ -7,11 +7,11 @@
         <property name="id" value="1"></property>
         <!-- 列表类型注入 -->
         <property name="list">
-            <array>
+            <list><!-- 也可以用<array>标签 -->
                 <value>list1</value>
                 <value>list2</value>
                 <value>list3</value>
-            </array>
+            </list>
         </property>
         <!-- map类型注入 -->
         <property name="map">
@@ -20,6 +20,22 @@
                 <entry key="2" value="map2"></entry>
                 <entry key="3" value="map3"></entry>
             </map>
+        </property>
+        <!-- set类型注入 -->
+        <property name="set">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </set>
+        </property>
+        <!-- 数组注入 -->
+        <property name="ints">
+            <array>
+                <value>111</value>
+                <value>222</value>
+                <value>333</value>
+            </array>
         </property>
     </bean>
 </beans>
