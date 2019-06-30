@@ -9,3 +9,6 @@
 >
 > #### springBean
 > spring的bean装载方式
+>
+> #### springBeanCollection
+> spring的bean容器类装载方式
