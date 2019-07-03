@@ -2,6 +2,7 @@ package com.boba;
 
 import com.boba.entity.People;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -28,5 +29,13 @@ public class App {
         people1.setName("123");
         System.out.println(people1);
         System.out.println(people2);
+        /*测试原型模式prototype, 每次获得的都是新对象 */
+        System.out.println("----------生命周期测试----------");
+        AbstractApplicationContext aac = new ClassPathXmlApplicationContext("META-INF/applicationContext.xml");
+        /* 在容器创建前, 还未从容器中获取时, init-method就被调用 */
+        People people3 = (People) ac.getBean("people3");
+        System.out.println(people3);
+        aac.registerShutdownHook(); //正常关闭, 触发调用的story方法
+
     }
 }

@@ -17,6 +17,8 @@
 > 初始化方法: init-method 初始化时调用
 >
 > 销毁方法: destroy-method 被销毁时调用
+>
+>如果你有太多具有相同名称的初始化或者销毁方法的 Bean，那么你不需要在每一个 bean 上声明初始化方法和销毁方法。框架<beans>使用 元素中的 default-init-method 和 default-destroy-method
 
 > spring bean后置处理器
 >
