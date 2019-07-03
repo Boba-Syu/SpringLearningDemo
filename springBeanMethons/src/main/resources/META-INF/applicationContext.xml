@@ -12,4 +12,9 @@
         <property name="name" value="people2"></property>
     </bean>
 
+    <!--spring bean 定义继承 user继承了people1的变量, 但是java中User类没有继承自People类 -->
+    <bean id="user" class="com.boba.entity.User" parent="people1">
+        <property name="id" value="1"></property>
+    </bean>
+
 </beans>
