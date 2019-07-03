@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 生命周期 -->
+    <bean id="people3" class="com.boba.entity.People" init-method="init" destroy-method="destroy">
+        <property name="name" value="people3"></property>
+    </bean>
+
+    <!-- 后置处理器 -->
+    <bean class="com.boba.entity.beanPostProcessor.BeanPostProcessorTest"></bean>
+</beans>

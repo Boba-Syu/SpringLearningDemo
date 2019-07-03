@@ -30,12 +30,11 @@ public class App {
         System.out.println(people1);
         System.out.println(people2);
         /*测试原型模式prototype, 每次获得的都是新对象 */
-        System.out.println("----------生命周期测试----------");
-        AbstractApplicationContext aac = new ClassPathXmlApplicationContext("META-INF/applicationContext.xml");
+        System.out.println("----------生命周期和后置处理器测试----------");
+        AbstractApplicationContext aac = new ClassPathXmlApplicationContext("META-INF/applicationContext2.xml");
         /* 在容器创建前, 还未从容器中获取时, init-method就被调用 */
-        People people3 = (People) ac.getBean("people3");
+        People people3 = (People) aac.getBean("people3");
         System.out.println(people3);
-        aac.registerShutdownHook(); //正常关闭, 触发调用的story方法
-
+        aac.registerShutdownHook(); //正常关闭, 触发调用的destory方法
     }
 }
