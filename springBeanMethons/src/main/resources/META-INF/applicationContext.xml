@@ -2,5 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 单例模式singleton -->
+    <bean id="people1" class="com.boba.entity.People" scope="singleton">
+        <property name="name" value="people1"></property>
+    </bean>
 
+    <!-- 原型模式prototype -->
+    <bean id="people2" class="com.boba.entity.People" scope="prototype">
+        <property name="name" value="people2"></property>
+    </bean>
 </beans>

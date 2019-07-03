@@ -1,13 +1,32 @@
 package com.boba;
 
+import com.boba.entity.People;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("META-INF/applicationContext.xml");
+        /* 测试单例模式singleton, 获得的对象都是同一个 */
+        System.out.println("---------singleton测试-----------");
+        People people1 = (People) ac.getBean("people1");
+        People people2 = (People) ac.getBean("people1");
+        System.out.println(people1);
+        System.out.println(people2);
+        people1.setName("123");
+        System.out.println(people1);
+        System.out.println(people2);
+        /*测试原型模式prototype, 每次获得的都是新对象 */
+        System.out.println("----------prototype测试----------");
+        people1 = (People) ac.getBean("people2");
+        people2 = (People) ac.getBean("people2");
+        System.out.println(people1);
+        System.out.println(people2);
+        people1.setName("123");
+        System.out.println(people1);
+        System.out.println(people2);
     }
 }
