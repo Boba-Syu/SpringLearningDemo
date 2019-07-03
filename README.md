@@ -12,3 +12,6 @@
 >
 > #### springBeanCollection
 > spring的bean容器类装载方式
+>
+> #### springBeanMethons
+> spring bean的作用域, 生命周期, 后置处理器和定义继承
