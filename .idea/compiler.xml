@@ -9,6 +9,7 @@
         <module name="springBean" />
         <module name="springBeanCollection" />
         <module name="springBeanFacotry" />
+        <module name="springBeanMethons" />
         <module name="springhelloworld" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="springBean" target="1.7" />
       <module name="springBeanCollection" target="1.7" />
       <module name="springBeanFacotry" target="1.7" />
+      <module name="springBeanMethons" target="1.7" />
       <module name="springhelloworld" target="1.7" />
     </bytecodeTargetLevel>
   </component>
