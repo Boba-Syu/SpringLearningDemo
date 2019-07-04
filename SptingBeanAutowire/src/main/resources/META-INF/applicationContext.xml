@@ -6,8 +6,12 @@
         <property name="name" value="boba"></property>
     </bean>
 
-    <!-- 利用autowire属性来自动装配 -->
+    <!-- 利用autowire属性byName来自动装配 -->
     <bean id="user" class="com.boba.entity.User" autowire="byName">
+        <property name="id" value="1"></property>
+    </bean>
+    <!-- 利用autowire属性byType来自动装配 -->
+    <bean id="user2" class="com.boba.entity.User" autowire="byType">
         <property name="id" value="1"></property>
     </bean>
 </beans>
