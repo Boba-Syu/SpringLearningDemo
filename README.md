@@ -18,3 +18,6 @@
 >
 > #### SpringBeanAutowire
 > spring bean 自动装配
+>
+> #### springBeanAnnotation
+> spring Bean 利用注解来配置

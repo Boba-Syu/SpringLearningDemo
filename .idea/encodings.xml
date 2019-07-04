@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SptingBeanAutowire" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanAnnotation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanCollection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanFacotry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanMethons" charset="UTF-8" />
