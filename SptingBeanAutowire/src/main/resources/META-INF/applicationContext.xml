@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="people" class="com.boba.entity.People">
+        <property name="name" value="boba"></property>
+    </bean>
+
+    <!-- 利用autowire属性来自动装配 -->
+    <bean id="user" class="com.boba.entity.User" autowire="byName">
+        <property name="id" value="1"></property>
+    </bean>
+</beans>

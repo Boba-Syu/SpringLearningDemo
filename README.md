@@ -15,3 +15,6 @@
 >
 > #### springBeanMethons
 > spring bean的作用域, 生命周期, 后置处理器和定义继承
+>
+> #### SpringBeanAutowire
+> spring bean 自动装配

@@ -11,6 +11,7 @@
         <module name="springBeanFacotry" />
         <module name="springBeanMethons" />
         <module name="springhelloworld" />
+        <module name="SptingBeanAutowire" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="springBeanFacotry" target="1.7" />
       <module name="springBeanMethons" target="1.7" />
       <module name="springhelloworld" target="1.7" />
+      <module name="SptingBeanAutowire" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
