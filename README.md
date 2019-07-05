@@ -21,3 +21,6 @@
 >
 > #### springBeanAnnotation
 > spring Bean 利用注解来配置
+>
+> #### springDemoByGradle
+> gradle而不是用maven搭建的spring的demo
