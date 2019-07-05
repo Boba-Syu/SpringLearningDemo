@@ -21,6 +21,8 @@
       <module name="springBeanCollection" target="1.7" />
       <module name="springBeanFacotry" target="1.7" />
       <module name="springBeanMethons" target="1.7" />
+      <module name="springDemoByGradle_main" target="1.8" />
+      <module name="springDemoByGradle_test" target="1.8" />
       <module name="springhelloworld" target="1.7" />
       <module name="SptingBeanAutowire" target="1.7" />
     </bytecodeTargetLevel>
