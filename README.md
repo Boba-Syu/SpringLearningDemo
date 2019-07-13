@@ -23,4 +23,7 @@
 > spring Bean 利用注解来配置
 >
 > #### springDemoByGradle
-> gradle而不是用maven搭建的spring的demo
+> 使用gradle而不是用maven搭建的spring的demo
+>
+> #### springAOP
+> spring中的AOP
