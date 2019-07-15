@@ -3,6 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!-- 引入外部properties配置文件 -->
+    <properties resource="META-INF/db.properties"></properties>
+
     <settings>
         <!--当返回行的所有列都是空时，MyBatis默认返回null-->
         <setting name="returnInstanceForEmptyRow" value="true"/>
@@ -16,10 +19,10 @@
             <!-- 数据库连接池技术 -->
             <dataSource type="POOLED">
                 <!-- 驱动类 -->
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/test"/>
-                <property name="username" value="root"/>
-                <property name="password" value="hn123456Aa"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
