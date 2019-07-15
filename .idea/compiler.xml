@@ -9,6 +9,7 @@
         <module name="springBeanAnnotation" />
         <module name="springBeanFacotry" />
         <module name="springBeanCollection" />
+        <module name="mybatisLearning" />
         <module name="springBean" />
         <module name="springAOP" />
         <module name="springhelloworld" />
@@ -17,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatisLearning" target="1.7" />
       <module name="springAOP" target="1.7" />
       <module name="springBean" target="1.7" />
       <module name="springBeanAnnotation" target="1.7" />
