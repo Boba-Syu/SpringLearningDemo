@@ -4,6 +4,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../springDemoByGradle">
+      <sourceFolder url="file://$MODULE_DIR$/../../../springDemoByGradle/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../springDemoByGradle/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../springDemoByGradle/build" />
     </content>

@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" filepath="$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanMethons/springBeanMethons.iml" filepath="$PROJECT_DIR$/springBeanMethons/springBeanMethons.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanAnnotation/.idea/modules/springDemoByGradle.iml" filepath="$PROJECT_DIR$/springBeanAnnotation/.idea/modules/springDemoByGradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/springhelloworld/springhelloworld.iml" filepath="$PROJECT_DIR$/springhelloworld/springhelloworld.iml" />
     </modules>
