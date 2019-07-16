@@ -30,3 +30,6 @@
 >
 > #### MybatisLearning
 > Mybatis学习的一个简单demo
+>
+> #### MybatisAnnotation
+> Mybatis的注解配置
