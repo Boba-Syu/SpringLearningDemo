@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springBeanAnnotation" />
-        <module name="springBeanFacotry" />
-        <module name="springBeanCollection" />
-        <module name="mybatisLearning" />
         <module name="springBean" />
-        <module name="springAOP" />
+        <module name="springBeanFacotry" />
         <module name="springhelloworld" />
+        <module name="springBeanCollection" />
+        <module name="mybatisAnnotation" />
+        <module name="springAOP" />
+        <module name="mybatisLearning" />
         <module name="springBeanMethons" />
         <module name="SptingBeanAutowire" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatisAnnotation" target="1.7" />
       <module name="mybatisLearning" target="1.7" />
       <module name="springAOP" target="1.7" />
       <module name="springBean" target="1.7" />
