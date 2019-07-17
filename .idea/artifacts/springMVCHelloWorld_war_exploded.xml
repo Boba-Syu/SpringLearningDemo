@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMVCHelloWorld:war exploded">
+    <output-path>$PROJECT_DIR$/springMVCHelloWorld/target/springMVCHelloWorld</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>springMVCHelloWorld</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMVCHelloWorld" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springMVCHelloWorld/target/springMVCHelloWorld/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="springMVCHelloWorld/web/Web" />
+    </root>
+  </artifact>
+</component>
