@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" filepath="$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" filepath="$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springhelloworld/springhelloworld.iml" filepath="$PROJECT_DIR$/springhelloworld/springhelloworld.iml" />
     </modules>
   </component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springMVCHelloWorld" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVCLogin" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/mybatisLearning/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/springMVCHelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVCLogin/pom.xml" />
       </list>
     </option>
   </component>
