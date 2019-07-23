@@ -1,5 +1,5 @@
 # SpringLearningDemo
-一套用maven配置spring的demo, 用来学习spring, IDE为IntelliJ IDEA
+一套用maven配置spring, springMVC和Mybatis的demo, 用来学习spring, IDE为IntelliJ IDEA
 
 > #### springhelloworld
 > 一个HelloWorld的demo
@@ -39,3 +39,6 @@
 >
 > #### springMVCLogin
 > springMVC写的登录跳转和值传递
+>
+> ### SSMDemo
+> ssm的结合demo
