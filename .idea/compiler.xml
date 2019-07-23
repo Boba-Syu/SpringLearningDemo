@@ -12,6 +12,7 @@
         <module name="springBeanCollection" />
         <module name="springhelloworld" />
         <module name="mybatisAnnotation" />
+        <module name="ssmDemo" />
         <module name="springMVCLogin" />
         <module name="springBean" />
         <module name="springAOP" />
@@ -35,6 +36,7 @@
       <module name="springMVCHelloWorld" target="1.7" />
       <module name="springMVCLogin" target="1.5" />
       <module name="SptingBeanAutowire" target="1.7" />
+      <module name="ssmDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
