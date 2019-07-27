@@ -51,3 +51,6 @@
 >
 > ####springboot-thymeleaf
 > Springboot中thymeleaf的使用
+>
+> ####springboot-mybatis
+> springboot和mybatis整合
