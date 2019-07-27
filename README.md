@@ -1,5 +1,5 @@
 # SpringLearningDemo
-一套用maven配置spring, springMVC和Mybatis的demo, 用来学习spring, IDE为IntelliJ IDEA
+一套用maven配置spring, springMVC, Mybatis和springboot的demo, 用来学习spring, IDE为IntelliJ IDEA
 
 > #### springhelloworld
 > 一个HelloWorld的demo
@@ -48,3 +48,6 @@
 >
 > ####springboot-learning
 > Springboot的demo
+>
+> ####springboot-thymeleaf
+> Springboot中thymeleaf的使用
