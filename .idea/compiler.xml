@@ -14,6 +14,7 @@
         <module name="springMVCHelloWorld" />
         <module name="springBeanFacotry" />
         <module name="springBean" />
+        <module name="springboot-learning" />
         <module name="SptingBeanAutowire" />
         <module name="springBeanAnnotation" />
         <module name="mybatisLearning" />
@@ -31,6 +32,7 @@
       <module name="springBeanCollection" target="1.7" />
       <module name="springBeanFacotry" target="1.7" />
       <module name="springBeanMethons" target="1.7" />
+      <module name="springboot-learning" target="1.8" />
       <module name="springDemoByGradle_main" target="1.8" />
       <module name="springDemoByGradle_test" target="1.8" />
       <module name="springhelloworld" target="1.7" />
@@ -40,5 +42,10 @@
       <module name="ssmByAnnotation" target="6" />
       <module name="ssmDemo" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-learning" options="-parameters" />
+    </option>
   </component>
 </project>

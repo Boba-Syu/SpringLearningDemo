@@ -18,7 +18,7 @@
         function table_load() {
             $.ajax({
                 type: 'post',
-                url: '/web/selectAll',
+                url: 'selectAll',
                 timeout: 1000,
                 dataType: 'json',
                 success: function (data) {
