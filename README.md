@@ -43,5 +43,8 @@
 > #### SSMDemo
 > ssm的结合demo
 >
+> #### ssmByAnnotation
+> ssm利用java文件来进行配置而不是xml文件配置的demo
+>
 > ####springboot-learning
 > Springboot的demo
