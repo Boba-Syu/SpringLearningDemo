@@ -2,23 +2,23 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.boba.springbootmybatis.mapper.UserMapper">
 
-    <select id="selectAll" resultType="com.boba.springbootmybatis.entity.User">
+    <select id="selectAll" resultType="User">
         SELECT uid, uname, pwd
         FROM test_user
     </select>
 
-    <select id="selectById" resultType="com.boba.springbootmybatis.entity.User">
+    <select id="selectById" resultType="User">
         SELECT uid, uname, pwd
         FROM test_user
         where uid=#{uid}
     </select>
 
-    <insert id="insert" parameterType="com.boba.springbootmybatis.entity.User">
+    <insert id="insert" parameterType="User">
         insert into test_user(uid, uname, pwd)
         values (default ,#{uname}, #{pwd})
     </insert>
 
-    <update id="update" parameterType="com.boba.springbootmybatis.entity.User">
+    <update id="update" parameterType="User">
         update test_user
         set uname=#{uname}, pwd=#{pwd}
         where uid=#{uid}
