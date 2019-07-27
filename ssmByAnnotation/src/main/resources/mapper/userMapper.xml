@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boba.test.mapper.UserMapper">
+
+    <select id="selectAll" resultType="com.boba.test.entity.User">
+        SELECT uid, uname, pwd
+        FROM test_user
+    </select>
+
+    <select id="selectById" resultType="com.boba.test.entity.User">
+        SELECT uid, uname, pwd
+        FROM test_user
+        where uid=#{uid}
+    </select>
+
+    <insert id="insert" parameterType="com.boba.test.entity.User">
+        insert into test_user(uid, uname, pwd)
+        values (default ,#{uname}, #{pwd})
+    </insert>
+
+    <update id="update" parameterType="com.boba.test.entity.User">
+        update test_user
+        set uname=#{uname}, pwd=#{pwd}
+        where uid=#{uid}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        delete from test_user
+        where uid=#{uid}
+    </delete>
+
+</mapper>
