@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springBeanCollection" />
+        <module name="springBeanMethons" />
+        <module name="springAOP" />
+        <module name="springhelloworld" />
+        <module name="ssmDemo" />
         <module name="springMVCHelloWorld" />
         <module name="springBeanFacotry" />
-        <module name="springBeanAnnotation" />
-        <module name="springBeanCollection" />
-        <module name="springhelloworld" />
-        <module name="mybatisAnnotation" />
-        <module name="ssmDemo" />
-        <module name="springMVCLogin" />
         <module name="springBean" />
-        <module name="springAOP" />
-        <module name="mybatisLearning" />
-        <module name="springBeanMethons" />
         <module name="SptingBeanAutowire" />
+        <module name="springBeanAnnotation" />
+        <module name="mybatisLearning" />
+        <module name="mybatisAnnotation" />
+        <module name="ssmByAnnotation" />
+        <module name="springMVCLogin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +37,7 @@
       <module name="springMVCHelloWorld" target="1.7" />
       <module name="springMVCLogin" target="1.5" />
       <module name="SptingBeanAutowire" target="1.7" />
+      <module name="ssmByAnnotation" target="6" />
       <module name="ssmDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

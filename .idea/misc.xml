@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springMVCHelloWorld" />
     <file type="web" url="file://$PROJECT_DIR$/springMVCLogin" />
+    <file type="web" url="file://$PROJECT_DIR$/ssmByAnnotation" />
     <file type="web" url="file://$PROJECT_DIR$/ssmDemo" />
     <type id="Spring" />
   </component>
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/springMVCHelloWorld/pom.xml" />
         <option value="$PROJECT_DIR$/springMVCLogin/pom.xml" />
         <option value="$PROJECT_DIR$/ssmDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ssmByAnnotation/pom.xml" />
       </list>
     </option>
   </component>
