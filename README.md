@@ -54,3 +54,6 @@
 >
 > ####springboot-mybatis
 > springboot和mybatis整合
+>
+> ####springboot-validation
+> springboot中数据校验的例子
