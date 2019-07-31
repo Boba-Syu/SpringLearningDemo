@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springBeanCollection" />
+        <module name="springboot-validation" />
         <module name="springBeanMethons" />
+        <module name="SptingBeanAutowire" />
         <module name="springAOP" />
         <module name="springhelloworld" />
         <module name="ssmDemo" />
@@ -15,10 +17,10 @@
         <module name="springBeanFacotry" />
         <module name="springBean" />
         <module name="springboot-learning" />
-        <module name="SptingBeanAutowire" />
         <module name="springBeanAnnotation" />
         <module name="mybatisLearning" />
         <module name="mybatisAnnotation" />
+        <module name="springboot-mybatis" />
         <module name="ssmByAnnotation" />
         <module name="springMVCLogin" />
       </profile>
@@ -33,6 +35,8 @@
       <module name="springBeanFacotry" target="1.7" />
       <module name="springBeanMethons" target="1.7" />
       <module name="springboot-learning" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-validation" target="1.8" />
       <module name="springDemoByGradle_main" target="1.8" />
       <module name="springDemoByGradle_test" target="1.8" />
       <module name="springhelloworld" target="1.7" />
@@ -46,6 +50,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-learning" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-validation" options="-parameters" />
     </option>
   </component>
 </project>

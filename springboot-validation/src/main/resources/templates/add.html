@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+</head>
+<body>
+<form th:action="@{/save}" method="post">
+    姓名: <input type="text" name="uname"/><br/>
+    密码: <input type="password" name="pwd"/><br/>
+    <div th:if="${error} != null">
+        <span th:text="${error}" style="color:red;"></span>
+    </div>
+    <input type="submit" value="确定"/>
+</form>
+</body>
+</html>

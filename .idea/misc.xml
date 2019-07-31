@@ -26,6 +26,8 @@
         <option value="$PROJECT_DIR$/ssmDemo/pom.xml" />
         <option value="$PROJECT_DIR$/ssmByAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-learning/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-validation/pom.xml" />
       </list>
     </option>
   </component>

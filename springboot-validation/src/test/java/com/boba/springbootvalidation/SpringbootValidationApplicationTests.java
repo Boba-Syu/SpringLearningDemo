@@ -1,4 +1,4 @@
-package com.boba.springbootthymeleaf;
+package com.boba.springbootvalidation;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootThymeleafApplicationTests {
+public class SpringbootValidationApplicationTests {
 
     @Test
     public void contextLoads() {

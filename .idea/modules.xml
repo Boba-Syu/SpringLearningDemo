@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" filepath="$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" filepath="$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-learning/springboot-learning.iml" filepath="$PROJECT_DIR$/springboot-learning/springboot-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validation/springboot-validation.iml" filepath="$PROJECT_DIR$/springboot-validation/springboot-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springhelloworld/springhelloworld.iml" filepath="$PROJECT_DIR$/springhelloworld/springhelloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmByAnnotation/ssmByAnnotation.iml" filepath="$PROJECT_DIR$/ssmByAnnotation/ssmByAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmDemo/ssmDemo.iml" filepath="$PROJECT_DIR$/ssmDemo/ssmDemo.iml" />
