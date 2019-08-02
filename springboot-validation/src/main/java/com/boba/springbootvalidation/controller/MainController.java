@@ -17,6 +17,7 @@ public class MainController {
 
     @RequestMapping("/save")
     public String save(@Validated User user, BindingResult result, Model model) {
+        System.out.println(user);
         if (result.hasErrors()) {
             model.addAttribute("error", result.getFieldError().getDefaultMessage());
             return "add";

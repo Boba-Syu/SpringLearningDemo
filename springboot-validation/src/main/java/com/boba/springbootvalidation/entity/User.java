@@ -11,11 +11,11 @@ public class User {
     @Length(max = 16, min = 6, message = "密码朝那个度应在{min}和{max}之间")
     private String pwd;
 
-    public String getUid() {
+    public String getUname() {
         return uname;
     }
 
-    public void setUid(String uname) {
+    public void setUname(String uname) {
         this.uname = uname;
     }
 
@@ -25,5 +25,13 @@ public class User {
 
     public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "uname='" + uname + '\'' +
+                ", pwd='" + pwd + '\'' +
+                '}';
     }
 }
