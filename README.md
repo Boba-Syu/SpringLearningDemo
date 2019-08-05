@@ -57,3 +57,6 @@
 >
 > ####springboot-validation
 > springboot中数据校验的例子
+>
+> ####springboot-shiro
+> springboot+shiro的一个用户登录的例子

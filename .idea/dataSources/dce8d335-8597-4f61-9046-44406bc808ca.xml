@@ -9,6 +9,7 @@
     </root>
     <schema id="2" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
+      <Substituted>1</Substituted>
     </schema>
     <schema id="3" parent="1" name="mysql">
       <Collation>latin1_swedish_ci</Collation>
@@ -24,8 +25,8 @@
     </schema>
     <schema id="7" parent="1" name="test">
       <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>latin1_swedish_ci</Collation>
+      <Visible>1</Visible>
     </schema>
     <schema id="8" parent="1" name="world">
       <Collation>latin1_swedish_ci</Collation>
