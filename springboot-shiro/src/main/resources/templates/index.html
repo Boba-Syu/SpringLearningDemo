@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.thymeleaf.org/thymeleaf-extras-shiro">
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
+    <title>Title</title>
+    <link rel="shortcut icon" href="#"/>
+    <link rel="shortcuticon" href="../resources/favicon.ico" th:href="@{/static/favicon.ico}">
 </head>
 <body>
-<h1>index</h1>
-<a th:href="@{/logout}">登出</a>
+<div th:if="${session.account != null}">
+    <span th:text="'欢迎回来' + ${session.account.username}"></span>
+    <a href="logout">退出登录</a>
+</div>
+<a href="/main">main</a><br/>
+<div shiro:hasPermission="manager">
+    <a href="/manage">manage</a> <br/>
+</div>
+<div shiro:hasRole="admin">
+    <a href="/administrator">administrator</a>
+</div>
 </body>
 </html>
