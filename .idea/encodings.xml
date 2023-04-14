@@ -2,21 +2,51 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SptingBeanAutowire" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SptingBeanAutowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SptingBeanAutowire/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisAnnotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisAnnotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisLearning" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisLearning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisLearning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springAOP" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springAOP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springAOP/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBean/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanAnnotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanAnnotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanCollection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanCollection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanCollection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanFacotry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanFacotry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanFacotry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBeanMethons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanMethons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBeanMethons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVCHelloWorld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVCHelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVCHelloWorld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-learning" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-learning/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-shiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-validation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springhelloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springhelloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springhelloworld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssmByAnnotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssmByAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssmByAnnotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssmDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssmDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssmDemo/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -5,25 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/SpringLearningDemo.iml" filepath="$PROJECT_DIR$/SpringLearningDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SptingBeanAutowire/SptingBeanAutowire.iml" filepath="$PROJECT_DIR$/SptingBeanAutowire/SptingBeanAutowire.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.boba-springDemoByGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.boba-springDemoByGradle_test.iml" group="springDemoByGradle" />
-      <module fileurl="file://$PROJECT_DIR$/mybatisAnnotation/mybatisAnnotation.iml" filepath="$PROJECT_DIR$/mybatisAnnotation/mybatisAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisLearning/mybatisLearning.iml" filepath="$PROJECT_DIR$/mybatisLearning/mybatisLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springAOP/springAOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBean/springBean.iml" filepath="$PROJECT_DIR$/springBean/springBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanAnnotation/springBeanAnnotation.iml" filepath="$PROJECT_DIR$/springBeanAnnotation/springBeanAnnotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" filepath="$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" group="springBeanCollection" />
+      <module fileurl="file://$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" filepath="$PROJECT_DIR$/springBeanCollection/springBeanCollection.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" filepath="$PROJECT_DIR$/springBeanFacotry/springBeanFacotry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBeanMethons/springBeanMethons.iml" filepath="$PROJECT_DIR$/springBeanMethons/springBeanMethons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springBeanAnnotation/.idea/modules/springDemoByGradle.iml" filepath="$PROJECT_DIR$/springBeanAnnotation/.idea/modules/springDemoByGradle.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_main.iml" group="springDemoByGradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springDemoByGradle_test.iml" group="springDemoByGradle" />
       <module fileurl="file://$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" filepath="$PROJECT_DIR$/springMVCHelloWorld/springMVCHelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" filepath="$PROJECT_DIR$/springMVCLogin/springMVCLogin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-learning/springboot-learning.iml" filepath="$PROJECT_DIR$/springboot-learning/springboot-learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-validation/springboot-validation.iml" filepath="$PROJECT_DIR$/springboot-validation/springboot-validation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springhelloworld/springhelloworld.iml" filepath="$PROJECT_DIR$/springhelloworld/springhelloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ssmByAnnotation/ssmByAnnotation.iml" filepath="$PROJECT_DIR$/ssmByAnnotation/ssmByAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmDemo/ssmDemo.iml" filepath="$PROJECT_DIR$/ssmDemo/ssmDemo.iml" />
     </modules>
   </component>

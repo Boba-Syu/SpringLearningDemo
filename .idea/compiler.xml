@@ -11,9 +11,9 @@
         <module name="mybatisAnnotation" />
         <module name="springAOP" />
         <module name="springBeanAnnotation" />
+        <module name="spring-helloworld" />
         <module name="SptingBeanAutowire" />
         <module name="springBeanCollection" />
-        <module name="springhelloworld" />
         <module name="springboot-shiro" />
         <module name="ssmByAnnotation" />
         <module name="springBeanMethons" />
@@ -27,25 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mybatisAnnotation" target="1.7" />
-      <module name="mybatisLearning" target="1.7" />
-      <module name="springAOP" target="1.7" />
-      <module name="springBean" target="1.7" />
-      <module name="springBeanAnnotation" target="1.7" />
-      <module name="springBeanFacotry" target="1.7" />
-      <module name="springBeanMethons" target="1.7" />
-      <module name="springboot-learning" target="1.8" />
-      <module name="springboot-mybatis" target="1.8" />
-      <module name="springboot-shiro" target="1.8" />
-      <module name="springboot-validation" target="1.8" />
-      <module name="springDemoByGradle_main" target="1.8" />
-      <module name="springDemoByGradle_test" target="1.8" />
       <module name="springhelloworld" target="1.7" />
-      <module name="springMVCHelloWorld" target="1.7" />
-      <module name="springMVCLogin" target="1.5" />
-      <module name="SptingBeanAutowire" target="1.7" />
-      <module name="ssmByAnnotation" target="6" />
-      <module name="ssmDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
