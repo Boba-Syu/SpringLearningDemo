@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springBeanCollection" />
-        <module name="springboot-validation" />
-        <module name="springBeanMethons" />
-        <module name="SptingBeanAutowire" />
-        <module name="springAOP" />
-        <module name="springhelloworld" />
-        <module name="ssmDemo" />
-        <module name="springMVCHelloWorld" />
-        <module name="springBeanFacotry" />
-        <module name="springBean" />
-        <module name="springboot-learning" />
-        <module name="springboot-shiro" />
-        <module name="springBeanAnnotation" />
-        <module name="mybatisLearning" />
-        <module name="mybatisAnnotation" />
-        <module name="springboot-mybatis" />
-        <module name="ssmByAnnotation" />
         <module name="springMVCLogin" />
+        <module name="springBeanFacotry" />
+        <module name="mybatisAnnotation" />
+        <module name="springAOP" />
+        <module name="springBeanAnnotation" />
+        <module name="SptingBeanAutowire" />
+        <module name="springBeanCollection" />
+        <module name="springhelloworld" />
+        <module name="springboot-shiro" />
+        <module name="ssmByAnnotation" />
+        <module name="springBeanMethons" />
+        <module name="mybatisLearning" />
+        <module name="springMVCHelloWorld" />
+        <module name="springboot-learning" />
+        <module name="ssmDemo" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-validation" />
+        <module name="springBean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,7 +32,6 @@
       <module name="springAOP" target="1.7" />
       <module name="springBean" target="1.7" />
       <module name="springBeanAnnotation" target="1.7" />
-      <module name="springBeanCollection" target="1.7" />
       <module name="springBeanFacotry" target="1.7" />
       <module name="springBeanMethons" target="1.7" />
       <module name="springboot-learning" target="1.8" />
